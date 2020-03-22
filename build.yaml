@@ -1,0 +1,16 @@
+---
+name: "veso-plugin-opensubtitles"
+guid: "4b9ed42f-5185-48b5-9803-6ff2989014c4"
+version: "7"
+veso_version: "10.3.7"
+owner: "veso"
+nicename: "Open Subtitles"
+description: "Download subtitles for your media"
+overview: "Download subtitles from the internet to use with your media files."
+category: "Metadata"
+artifacts:
+  - "Veso.Plugin.OpenSubtitles.dll"
+  - "OpenSubtitlesHandler.dll"
+build_type: "dotnet"
+dotnet_configuration: "Release"
+dotnet_framework: "netstandard2.0"
