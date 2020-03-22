@@ -1,6 +1,6 @@
 using MediaBrowser.Model.Plugins;
 
-namespace Jellyfin.Plugin.OpenSubtitles.Configuration
+namespace Veso.Plugin.OpenSubtitles.Configuration
 {
     public class PluginConfiguration : BasePluginConfiguration
     {

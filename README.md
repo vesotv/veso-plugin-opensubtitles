@@ -1,5 +1,5 @@
-<h1 align="center">Jellyfin OpenSubtitles Plugin</h1>
-<h3 align="center">Part of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
+<h1 align="center">Veso OpenSubtitles Plugin</h1>
+<h3 align="center">Part of the <a href="https://veso.org">Veso Project</a></h3>
 
 <p align="center">
 This is a plugin built with .NET that can download subtitles from <a href="https://opensubtitles.org">Open Subtitles</a> for your videos.

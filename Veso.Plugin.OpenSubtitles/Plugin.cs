@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Jellyfin.Plugin.OpenSubtitles.Configuration;
+using Veso.Plugin.OpenSubtitles.Configuration;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Serialization;
 
-namespace Jellyfin.Plugin.OpenSubtitles
+namespace Veso.Plugin.OpenSubtitles
 {
     public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
     {

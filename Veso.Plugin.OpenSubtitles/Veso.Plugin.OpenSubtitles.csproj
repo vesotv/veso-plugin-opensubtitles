@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>Jellyfin.Plugin.OpenSubtitles</RootNamespace>
+    <RootNamespace>Veso.Plugin.OpenSubtitles</RootNamespace>
     <AssemblyVersion>7.0.0</AssemblyVersion>
     <FileVersion>7.0.0</FileVersion>
   </PropertyGroup>

@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Plugin.OpenSubtitles.Configuration;
+using Veso.Plugin.OpenSubtitles.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Configuration;
@@ -19,7 +19,7 @@ using MediaBrowser.Model.Serialization;
 using Microsoft.Extensions.Logging;
 using OpenSubtitlesHandler;
 
-namespace Jellyfin.Plugin.OpenSubtitles
+namespace Veso.Plugin.OpenSubtitles
 {
     public class OpenSubtitleDownloader : ISubtitleProvider
     {
@@ -36,7 +36,7 @@ namespace Jellyfin.Plugin.OpenSubtitles
             _fileSystem = fileSystem;
 
             Utilities.HttpClient = httpClient;
-            OpenSubtitlesHandler.OpenSubtitles.SetUserAgent("jellyfin");
+            OpenSubtitlesHandler.OpenSubtitles.SetUserAgent("veso");
         }
 
         public string Name => "Open Subtitles";
